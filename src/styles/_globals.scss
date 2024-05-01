@@ -1,0 +1,15 @@
+@use '../utils/reset';
+@use '../utils/utils' as *;
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $background-color;
+}
+h2 {
+  @include font-title();
+  text-align: center;
+}
+p {
+  @include font();
+}

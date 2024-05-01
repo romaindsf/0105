@@ -1,0 +1,21 @@
+@use '../utils/utils' as *;
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+  padding: 2rem;
+
+  &__item {
+    padding: 1rem;
+    background-color: $mainBC;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}

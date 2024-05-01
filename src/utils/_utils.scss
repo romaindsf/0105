@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+$background-color: #251e47;
+$mainBC: #66689f;
+$font-title-color: #f2bf43;
+
+@mixin font-title($size: 1.25rem, $weight: 700) {
+  font-family: 'Roboto', sans-serif;
+  color: $font-title-color;
+  font-size: $size;
+  font-weight: $weight;
+}
+
+@mixin font($size: 1rem, $weight: 400) {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: $size;
+  font-weight: $weight;
+}
