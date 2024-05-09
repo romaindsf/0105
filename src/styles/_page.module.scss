@@ -22,29 +22,46 @@
     }
   }
 }
+.active {
+  grid-area: 1 / 1 / span 4 / span 4;
+}
 .presentationSection {
   &__default {
     grid-area: 1 / 1 / span 2 / span 2;
+  }
+  &__collapsed {
+    grid-area: 1 / 5 / span 1 / span 1;
   }
 }
 .competenceSection {
   &__default {
     grid-area: 1 / 3 / span 2 / span 2;
   }
+  &__collapsed {
+    grid-area: 2 / 5 / span 1 / span 1;
+  }
 }
 .realisationsSection {
   &__default {
     grid-area: 3 / 1 / span 2 / span 4;
+  }
+  &__collapsed {
+    grid-area: 3 / 5 / span 1 / span 1;
   }
 }
 .contactSection {
   &__default {
     grid-area: 1 / 5 / span 3 / span 1;
   }
+  &__collapsed {
+    grid-area: 4 / 5 / span 1 / span 1;
+  }
 }
-
 .cvSection {
   &__default {
     grid-area: 4 / 5 / span 1 / span 1;
+  }
+  &__collapsed {
+    grid-area: 5 / 5 / span 1 / span 1;
   }
 }
